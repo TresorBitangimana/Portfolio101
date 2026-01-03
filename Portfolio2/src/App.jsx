@@ -3,6 +3,7 @@ import './App.css'
 import Profile from "./Profile.jsx";
 import Projects from "./Projects.jsx";
 import About from "./About.jsx";
+import Nav from "./Nav.jsx"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Profile />
       </div>
       <div className="content-container" id="content-contaienr">
+        <Nav />
         <About />
         <Projects />
       </div>

@@ -1,0 +1,38 @@
+
+
+.nav{
+    height: 6.5%;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--border-shadow);
+    border-radius: 50px;
+    position: sticky;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav ul{
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav ul li{
+    list-style: none ;
+    float: left;
+    border: 1px solid var(--border-color);
+    padding: 9px 20px;
+    border-radius: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.nav ul li a{
+    color: var(--text-color);
+}

@@ -6,6 +6,9 @@
   --primary-color: rgb(68, 14, 107);
   --second-color: rgb(38, 10, 58);
   --hover-color:rgba(68, 14, 107, 0.077);
+  --border-color: rgb(211, 211, 211);
+  --text-color: rgb(70, 70, 70);
+  --border-shadow: -1px -1px 5px rgb(147, 147, 147);
   scroll-behavior: smooth;
   scrollbar-width: none;
 
@@ -24,7 +27,7 @@
 .profile-container{
   height: 100%;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid var(--border-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,5 +36,7 @@
 .content-container{
   height: 100%;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
 }
