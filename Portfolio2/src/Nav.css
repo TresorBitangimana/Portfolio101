@@ -8,12 +8,13 @@
     border: 1px solid var(--border-color);
     box-shadow: var(--border-shadow);
     border-radius: 50px;
-    position: sticky;
+    position: absolute;
     margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    user-select: none;
+    background: var(--white-blurr-background-v1);
 }
 
 .nav ul{
@@ -21,18 +22,29 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: var(--white-blurr-background);
 }
 
 .nav ul li{
     list-style: none ;
     float: left;
-    border: 1px solid var(--border-color);
+    border: 1px solid white;
     padding: 9px 20px;
     border-radius: 50px;
     margin-left: 2px;
     margin-right: 2px;
+    transition: .5s;
+    background-color: var(--white-blurr-background);
+}
+.nav ul li:hover{
+    border-color: var(--border-color);
+    cursor: pointer;
+}
+.nav ul li:active{
+    border-color: black;
 }
 
 .nav ul li a{
     color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0);
 }

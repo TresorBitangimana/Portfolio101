@@ -33,6 +33,7 @@
     font-family: 'Lucida Handwriting';
     color: var(--text-color);
     font-size: 2em;
+    text-align: center;
 }
 .my-info-about{
     text-align: center;
@@ -57,6 +58,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .5s;
+    user-select: none;
+}
+.contact:hover{
+    cursor: pointer;
+    border-color: rgb(108, 108, 108);
 }
 
 .contact a{

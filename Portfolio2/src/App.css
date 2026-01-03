@@ -9,6 +9,8 @@
   --border-color: rgb(211, 211, 211);
   --text-color: rgb(70, 70, 70);
   --border-shadow: -1px -1px 5px rgb(147, 147, 147);
+  --white-blurr-background-v1: rgba(255, 255, 255, 0.5);
+  --white-blurr-background: rgba(255, 255, 255, 0.6);
   scroll-behavior: smooth;
   scrollbar-width: none;
 
@@ -18,7 +20,6 @@
 .app-container{
   height: 100vh;
   width: 100vw;
-  background-color: red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-columns: 40% 60%;
@@ -27,7 +28,7 @@
 .profile-container{
   height: 100%;
   width: 100%;
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +37,8 @@
 .content-container{
   height: 100%;
   width: 100%;
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
   display: flex;
   justify-content: center;
+  overflow-y: scroll;
 }

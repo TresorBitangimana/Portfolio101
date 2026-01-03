@@ -8,7 +8,7 @@ function Profile(){
             <img src={myImage} alt="profile picture" className="profile-picture" id="profile-picture"/>
             <div className="my-info" id="my-info">
                 <h1 className="name" id="name">Tresor Bitangimana</h1>
-                <p className="my-info-about" id="my-info-about">Computer Science &nbsp;·&nbsp;  Student &nbsp;·&nbsp;  idk</p>
+                <p className="my-info-about" id="my-info-about">Computer Science &nbsp;·&nbsp;  Student &nbsp;·&nbsp;  Tech lover</p>
             </div>
             <div className="contacts" id="contacts">
                 <div className="contact" id="linkedin-contact">
