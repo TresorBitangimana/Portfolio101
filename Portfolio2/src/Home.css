@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.home{
+    padding-top: 20%;
+}
+
+.home-text{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.welcome-text{
+    font-size: 5em;
+    animation: textPop 1s;
+    padding-bottom: 20px;
+    font-family: var(--text-font);
+}
+.name-intro{
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-family: var(--text-font);
+}
+
+/* .intro{
+     font-family: var(--text-font); 
+} */
+
+
+@keyframes textPop {
+    0%{
+        font-size: 3em;
+    }
+    50%{
+        font-size: 6em;
+    }
+    100%{
+        font-size: 5em;
+    }
+
+}

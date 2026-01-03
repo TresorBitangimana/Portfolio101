@@ -30,7 +30,7 @@
 }
 
 .name{
-    font-family: 'Lucida Handwriting';
+    font-family: var(--text-font);
     color: var(--text-color);
     font-size: 2em;
     text-align: center;

@@ -3,7 +3,9 @@ import './App.css'
 import Profile from "./Profile.jsx";
 import Projects from "./Projects.jsx";
 import About from "./About.jsx";
-import Nav from "./Nav.jsx"
+import Nav from "./Nav.jsx";
+import Home from "./Home.jsx";
+import Skill from "./Skill.jsx";
 
 function App() {
 
@@ -14,7 +16,9 @@ function App() {
       </div>
       <div className="content-container" id="content-contaienr">
         <Nav />
+        <Home />
         <About />
+        <Skill />
         <Projects />
       </div>
     </div>

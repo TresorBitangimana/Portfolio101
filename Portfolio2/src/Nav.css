@@ -3,12 +3,14 @@
 .nav{
     height: 6.5%;
     width: auto;
+    position: absolute;
+    left: 55%;
+    bottom: 88%;
     padding-left: 5px;
     padding-right: 5px;
     border: 1px solid var(--border-color);
     box-shadow: var(--border-shadow);
     border-radius: 50px;
-    position: absolute;
     margin-top: 5%;
     display: flex;
     align-items: center;
