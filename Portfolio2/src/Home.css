@@ -5,7 +5,8 @@
 
 
 .home{
-    padding-top: 20%;
+    padding-top: 30%;
+    padding-bottom: 40%;
 }
 
 .home-text{
@@ -18,6 +19,7 @@
     animation: textPop 1s;
     padding-bottom: 20px;
     font-family: var(--text-font);
+    color: var(--purple-theme-text-color);
 }
 .name-intro{
     color: var(--text-color);
