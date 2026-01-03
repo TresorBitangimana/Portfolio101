@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    --border-color: rgb(211, 211, 211);
+}
+
+
+.profile{
+    height: auto;
+    width: 70%;
+    border: 1px solid var(--border-color);
+    box-shadow: -1px -1px 5px rgb(147, 147, 147);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 20%;
+}
+
+.profile-picture{
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.my-info{
+    margin-bottom: 40px;
+}
+
+.name{
+    font-family: 'Lucida Handwriting';
+    color: var(--second-color);
+    font-size: 2em;
+}
+.my-info-about{
+    text-align: center;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    height: 50px;
+    width: 95%;
+    border: 1px solid var(--border-color);
+    box-shadow: -1px -1px 5px rgb(147, 147, 147);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
