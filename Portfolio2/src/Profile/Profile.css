@@ -58,12 +58,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s;
+    transition: .3s;
     user-select: none;
 }
 .contact:hover{
     cursor: pointer;
     border-color: rgb(108, 108, 108);
+    box-shadow: -2px -2px 15px rgb(117, 135, 161);
+;
+
 }
 
 .contact a{

@@ -15,14 +15,17 @@ function About(){
 
             {/* school infomation  */}
             <div className="education" id="education">
+
                 <div className="school-logo-container" id="school-logo-container">
                     <img src={TCULogo} alt="TCU logo" className="school-logo" id="school-logo" />
                     <h2 className="school-name" id="school-name">Texas Christian University</h2>
                 </div>
-                <h2 className="college-name" id="college-name">College of Science and Engineering</h2>
-                <p className="degree-type" id="degree-type">Bachelor's</p>
-                <p className="attend-year" id="attend-year">August 2025 - Present</p>
-                <p className="major" id="major">Major: Computer Science</p>
+                <div className="school-text-info-container" id="school-text-info-container">
+                    <h2 className="college-name" id="college-name">College of Science and Engineering</h2>
+                    <p className="degree-type" id="degree-type">Bachelor's</p>
+                    <p className="attend-year" id="attend-year">August 2025 - Present</p>
+                    <p className="major" id="major">Major: Computer Science</p>
+                </div>
             </div>
         </div>
     );

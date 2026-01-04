@@ -5,10 +5,13 @@
 
 
 .projects{
-    height: 500px;
-    width: 100%;
-    /* border: 1px solid black; */
+    height: 400px;
+    width: 95%;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--border-color);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }

@@ -28,9 +28,16 @@
 
 .education{
     height: auto;
-    width: 100%;
-    border-top: 1px solid black; border-bottom: 1px solid black;
+    width: 90%;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-top: 10px;
     text-align: left;
+    box-shadow: var(--border-shadow);
+    transition: .5s;
+}
+.education:hover{
+    box-shadow: -1px -1px 10px rgb(41, 0, 41);
 }
 
 .school-logo-container{
@@ -40,17 +47,24 @@
     display: flex;
     align-items: center;
     background-color: var(--school-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .school-logo{
     height: 100%;
     width: auto;
     margin-right: 10px;
+    border-radius: 8px;
 }
 
 .school-name{
     color: white;
     background-color: var(--school-color);
+}
+
+.school-text-info-container{
+    margin-left: 10px;
 }
 
 .major{
