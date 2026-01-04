@@ -1,11 +1,11 @@
 import './App.css'
 
-import Profile from "./Profile.jsx";
-import Projects from "./Projects.jsx";
-import About from "./About.jsx";
-import Nav from "./Nav.jsx";
-import Home from "./Home.jsx";
-import Skills from "./Skills.jsx";
+import Profile from "./Profile/Profile.jsx";
+import Projects from "./Projects/Projects.jsx";
+import About from "./About/About.jsx";
+import Nav from "./Nav/Nav.jsx";
+import Home from "./Home/Home.jsx";
+import Skills from "./Skills/Skills.jsx";
 
 function App() {
 

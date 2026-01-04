@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.about{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* about me  */
+
+.about-me{
+    border-top: 1px solid black; border-bottom: 1px solid black;
+    padding-top: 20px; padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* Education */
+
+.education{
+    height: auto;
+    width: 100%;
+    border-top: 1px solid black; border-bottom: 1px solid black;
+    text-align: left;
+}
+
+.school-logo-container{
+    height: 75px;
+    width: 100%;
+    border-top: 1px solid black; border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: var(--school-color);
+}
+
+.school-logo{
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+}
+
+.school-name{
+    color: white;
+    background-color: var(--school-color);
+}
+
+.major{
+    margin-bottom: 20px;
+}

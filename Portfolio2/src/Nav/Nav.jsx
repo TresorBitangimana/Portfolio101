@@ -13,7 +13,6 @@ function Nav(){
                     behavior: "smooth"
                 }
             );
-            nav.style.borderColor = 'rgb(211, 211, 211)';
         }
     }
 
