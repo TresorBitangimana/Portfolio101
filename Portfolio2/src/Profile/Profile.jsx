@@ -1,6 +1,10 @@
 import "./Profile.css";
 import myImage from "../assets/myImage.png"
 
+import { FaLinkedin, FaGithub, FaInstagramSquare} from "react-icons/fa";
+import { SiHandshake } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
+
 
 function Profile(){
     return(
@@ -12,19 +16,24 @@ function Profile(){
             </div>
             <div className="contacts" id="contacts">
                 <div className="contact" id="linkedin-contact">
-                    <a href="#">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/tresor-bitangimana-a1b05339a/"> LinkedIn &nbsp; </a>
+                    <div className="icon"><FaLinkedin /></div>
                 </div>
                 <div className="contact" id="handshake-contact">
-                    <a href="#">Handshake</a>
+                    <a href="https://tcu.joinhandshake.com/profiles/tresorbitangimana">Handshake &nbsp; </a>
+                    <div className="icon"><SiHandshake /></div>
                 </div>
                 <div className="contact" id="github-contact">
-                    <a href="#">GitHub</a>
+                    <a href="https://github.com/TresorBitangimana">GitHub &nbsp; </a>
+                    <div className="icon"><FaGithub /></div>
                 </div>
                 <div className="contact" id="email-contact">
-                    <a href="#">Email</a>
+                    <a href="Mailto:bitangimanatresor@gmail.com?subject=Hello%20Tresor&body=Hi%20Tresor%2C%0A%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20connect.">Email &nbsp; </a>
+                    <div className="icon"><MdEmail /></div>
                 </div>
                 <div className="contact" id="instagram-contact">
-                    <a href="#">Instagram</a>
+                    <a href="https://www.instagram.com/treasure_1.0.1/">Instagram &nbsp; </a>
+                    <div className="icon"><FaInstagramSquare /></div>
                 </div>
             </div>
         </div>

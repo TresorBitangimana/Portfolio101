@@ -17,6 +17,10 @@
     justify-content: center;
     user-select: none;
     background: var(--white-blurr-background-v1);
+    transition: .5s;
+}
+.nav:hover{
+    box-shadow: -1px -1px 10px rgb(69, 69, 69);
 }
 
 .nav ul{
