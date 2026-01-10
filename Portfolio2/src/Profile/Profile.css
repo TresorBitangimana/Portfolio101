@@ -85,4 +85,10 @@
 .contact a {
     color: var(--text-color);
     font-size: 1em;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
