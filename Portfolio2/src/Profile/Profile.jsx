@@ -28,7 +28,7 @@ function Profile(){
                     <div className="icon"><FaGithub /></div>
                 </div>
                 <div className="contact" id="email-contact">
-                    <a href="Mailto:bitangimanatresor@gmail.com?subject=Hello%20Tresor&body=Hi%20Tresor%2C%0A%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20connect.">Email &nbsp; </a>
+                    <a href="mailto:bitangimanatresor@gmail.com?subject=Hello%20Tresor&body=Hi%20Tresor%2C%0A%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20connect.">Email &nbsp; </a>
                     <div className="icon"><MdEmail /></div>
                 </div>
                 <div className="contact" id="instagram-contact">

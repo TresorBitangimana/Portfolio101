@@ -5,13 +5,14 @@
 
 
 .about{
-    height: 500px;
+    height: auto;
     width: 100%;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 
@@ -20,8 +21,21 @@
 .about-me{
     border-top: 1px solid black; border-bottom: 1px solid black;
     padding-top: 20px; padding-bottom: 20px;
-    width: 100%;
+    width: 90%;
     height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+
+.about-me-text{
+    grid-column: span 3;
+}
+
+.about-info{
+    border: 1px solid var(--border-color);
+    height: auto;
+    min-height: 200px;
 }
 
 /* Education */

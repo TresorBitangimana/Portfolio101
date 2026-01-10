@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-
-.profile{
+.profile {
     height: auto;
     width: 70%;
     border: 1px solid var(--border-color);
-    box-shadow: var(--border-shadow);
+    border: none;
+    /* box-shadow: var(--border-shadow); */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -18,33 +18,33 @@
     margin-left: 20%;
 }
 
-.profile-picture{
+.profile-picture {
     height: 300px;
     width: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    transition: .5s;
+    transition: 0.5s;
 }
-.profile-picture:hover{
+.profile-picture:hover {
     cursor: pointer;
     box-shadow: -2px -2px 10px blue;
 }
 
-.my-info{
+.my-info {
     margin-bottom: 40px;
 }
 
-.name{
+.name {
     font-family: var(--text-font);
     color: var(--text-color);
     font-size: 2em;
     text-align: center;
 }
-.my-info-about{
+.my-info-about {
     text-align: center;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -53,7 +53,7 @@
     justify-content: center;
 }
 
-.contact{
+.contact {
     height: 50px;
     width: 95%;
     border: 1px solid var(--border-color);
@@ -63,11 +63,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: 0.3s;
     user-select: none;
 }
 
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,15 +76,13 @@
     flex-shrink: 0;
 }
 
-.contact:hover{
+.contact:hover {
     cursor: pointer;
     border-color: rgb(108, 108, 108);
     box-shadow: -2px -2px 15px rgb(117, 135, 161);
-;
-
 }
 
-.contact a{
+.contact a {
     color: var(--text-color);
     font-size: 1em;
 }

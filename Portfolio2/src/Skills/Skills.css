@@ -5,12 +5,12 @@
 
 
 .skills{
-    height: 500px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding-bottom: 100px;
 }
 
 .skills-text{
@@ -43,7 +43,6 @@
     justify-content: center;
     box-shadow: var(--border-shadow);
     user-select: none;
-    color: red;
 }
 .technology:hover{
     cursor: pointer;

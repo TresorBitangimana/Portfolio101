@@ -5,7 +5,8 @@
 
 
 .projects{
-    height: 400px;
+    height: auto;
+    min-height: 400px;
     width: 95%;
     border: 1px solid var(--border-color);
     box-shadow: var(--border-color);
@@ -15,7 +16,6 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 50px;
 }
 
 .projects h1{

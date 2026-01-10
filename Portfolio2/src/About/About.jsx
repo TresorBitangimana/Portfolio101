@@ -7,6 +7,11 @@ function About(){
 
             <div className="about-me" id="about-me">
                 <h2 className="about-me-text" id="about-me-text">About me</h2>
+                <div className="about-info" id="about-intro">
+
+                </div>
+                <div className="about-info"></div>
+                <div className="about-info"></div>
             </div>
 
             <div className="interest" id="interest">
