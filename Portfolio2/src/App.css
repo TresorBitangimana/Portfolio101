@@ -3,7 +3,10 @@
   padding: 0;
   background-color: white;
   color: black;
-  --background-color: rgb(247, 252, 252);
+  /* --background-color: rgb(247, 252, 252); */
+  --background-color: rgba(245, 243, 240, 0.557);
+
+
   --purple-theme-text-color: rgb(33, 0, 33);
   --school-color: rgb(68, 14, 107);
   --secondary-background-color: rgba(247, 252, 252, 0.742);
