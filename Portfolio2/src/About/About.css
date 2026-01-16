@@ -1,10 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-
-.about{
+.about {
     height: auto;
     width: 100%;
     /* border: 1px solid black; */
@@ -15,12 +14,12 @@
     padding-bottom: 150px;
 }
 
-
 /* about me  */
 
-.about-me{
-    border-top: 1px solid black; 
-    padding-top: 20px; padding-bottom: 20px;
+.about-me {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 90%;
     height: auto;
     display: grid;
@@ -29,24 +28,31 @@
     padding-bottom: 100px;
 }
 
-.about-me-text{
+.about-me-text {
     grid-column: span 3;
     color: var(--text-color);
     font-size: 2.5em;
 }
 
-.about-info{
+.about-info {
     border: 1px solid var(--border-color);
     height: auto;
     min-height: 200px;
     border-radius: 5px;
     padding: 20px;
     min-width: 200px;
+    font-size: clamp(0.2em, 1em, 1em);
+}
+
+@media screen and (max-width: 1000px) {
+    .about-info {
+        min-width: 100px;
+    }
 }
 
 /* Education */
 
-.education{
+.education {
     height: auto;
     width: 90%;
     border: 1px solid var(--border-color);
@@ -54,16 +60,17 @@
     margin-top: 10px;
     text-align: left;
     box-shadow: var(--border-shadow);
-    transition: .5s;
+    transition: 0.5s;
 }
-.education:hover{
+.education:hover {
     box-shadow: -1px -1px 10px rgb(41, 0, 41);
 }
 
-.school-logo-container{
+.school-logo-container {
     height: 75px;
     width: 100%;
-    border-top: 1px solid black; border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     background-color: var(--school-color);
@@ -71,22 +78,22 @@
     border-top-right-radius: 8px;
 }
 
-.school-logo{
+.school-logo {
     height: 100%;
     width: auto;
     margin-right: 10px;
     border-radius: 8px;
 }
 
-.school-name{
+.school-name {
     color: white;
     background-color: var(--school-color);
 }
 
-.school-text-info-container{
+.school-text-info-container {
     margin-left: 10px;
 }
 
-.major{
+.major {
     margin-bottom: 20px;
 }

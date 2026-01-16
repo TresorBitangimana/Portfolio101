@@ -18,6 +18,13 @@
     margin-left: 20%;
 }
 
+@media screen and (max-width: 1000px) {
+    .profile {
+        margin: auto;
+        padding-bottom: 10%;
+    }
+}
+
 .profile-picture {
     height: 300px;
     width: auto;
