@@ -10,11 +10,14 @@ import Skills from "./Skills/Skills.jsx";
 function App() {
     return (
         <div className="app-container" id="app-container">
+            <div className="nav-container" id="nav-container">
+                <Nav />
+            </div>
             <div className="profile-container" id="profile-container">
                 <Profile />
             </div>
             <div className="content-container" id="content-contaienr">
-                <Nav />
+                <Nav className="in-content-nav" />
                 <div id="home">
                     <Home />
                 </div>

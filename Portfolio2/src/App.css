@@ -23,11 +23,30 @@
 /* apps main container.  */
 .app-container {
     height: 100vh;
+    height: 100dvh;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 40% 60%;
     background-color: var(--background-color);
+}
+
+/* while the screen size is less than 1000px the nav contaienr is hidden  */
+.nav-container {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-container {
+        display: block;
+        border: 1px solid black;
+        grid-column: span 2;
+        position: fixed;
+    }
+
+    .in-content-nav-container {
+        display: none;
+    }
 }
 
 .profile-container {

@@ -3,8 +3,8 @@
     width: auto;
 
     position: fixed;
-    left: 55%;
-    transform: translate(10%, -50%);
+    left: 68%;
+    transform: translateX(-50%);
     bottom: 88%;
 
     padding-left: 5px;
@@ -18,7 +18,7 @@
     justify-content: center;
     user-select: none;
     background: var(--white-blurr-background-v1);
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 .nav:hover {
     box-shadow: -1px -1px 10px rgb(69, 69, 69);
@@ -29,8 +29,8 @@
         position: fixed;
         margin: auto;
         position: fixed;
-        /* left: 30%; */
-        transform: translate(-60%, -50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
