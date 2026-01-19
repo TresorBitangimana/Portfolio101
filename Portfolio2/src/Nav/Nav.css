@@ -1,5 +1,6 @@
 .nav {
-    height: 6.5%;
+    /* height: 6.5%; */
+    height: clamp(60px, 10vh, 50px);
     width: auto;
 
     position: fixed;
