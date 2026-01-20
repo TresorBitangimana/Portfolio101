@@ -35,6 +35,12 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .nav {
+        bottom: 92%;
+    }
+}
+
 .nav ul {
     border-radius: 50px;
     display: flex;
