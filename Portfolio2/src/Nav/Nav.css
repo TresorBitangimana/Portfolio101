@@ -29,7 +29,8 @@
     .nav {
         position: fixed;
         left: 50%;
-        transform: translateX(-50%);
+        /* transform: translateX(-50%); */
+        translate: 0 0;
     }
 }
 
