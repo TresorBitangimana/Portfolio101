@@ -1,6 +1,6 @@
 .nav {
     /* height: 6.5%; */
-    height: clamp(60px, 10vh, 50px);
+    height: clamp(60px, 10%, 50px);
     width: auto;
 
     position: fixed;
@@ -28,8 +28,6 @@
 @media screen and (max-width: 1000px) {
     .nav {
         position: fixed;
-        margin: auto;
-        position: fixed;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -37,7 +35,8 @@
 
 @media screen and (max-width: 500px) {
     .nav {
-        bottom: 92%;
+        position: fixed;
+        top: 0%;
     }
 }
 
